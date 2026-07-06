@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/org/succeptivitydev/xlifesmp/commands/LifeCommand.java;C:/Users/khark/IdeaProjects/xlifesmp/src/main/java/org/succeptivitydev/xlifesmp/Listeners/LoginListener.java;C:/Users/khark/IdeaProjects/xlifesmp/src/main/java/org/succeptivitydev/xlifesmp/Listeners/MainListener.java;C:/Users/khark/IdeaProjects/xlifesmp/src/main/java/org/succeptivitydev/xlifesmp/manager/LifeManager.java;C:/Users/khark/IdeaProjects/xlifesmp/src/main/java/org/succeptivitydev/xlifesmp/model/LifeState.java;C:/Users/khark/IdeaProjects/xlifesmp/src/main/java/org/succeptivitydev/xlifesmp/model/PlayerData.java;C:/Users/khark/IdeaProjects/xlifesmp/src/main/java/org/succeptivitydev/xlifesmp/ThirdLifePlugin.java" />
+  </component>
+</project>

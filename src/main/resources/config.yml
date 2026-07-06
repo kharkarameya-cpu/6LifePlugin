@@ -1,0 +1,53 @@
+# Storage configuration for xLifeSMP
+# storage.type: yaml OR mysql
+storage:
+  type: yaml
+
+  # MySQL settings (used if storage.type = mysql)
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: ""
+    table: xlifesmp_players
+
+# Default starting lives for new players
+default-lives: 6
+
+# Enable/Disable custom items
+# Set to true to enable an item, false to disable it
+items:
+  # Basic items (available to all players)
+  revive-token: true
+  blood-lust-sword: true
+  life-orb: true
+
+  # Green items (only craftable by GREEN players)
+  green:
+    backpack: true
+    lumber-axe: true
+    farmer-charm: true
+    wind-boots: true
+    emergency-totem: true
+
+  # Yellow items (only craftable by YELLOW players)
+  yellow:
+    tracking-compass: true
+    smoke-bomb: true
+    snare-trap: true
+    hunter-cloak: true
+    scout-bow: true
+
+  # Red items (only craftable by RED players)
+  red:
+    blood-sword: true
+    frenzy-pendant: true
+    last-stand-shield: true
+    chaos-pearl: true
+
+  # Legendary items (craftable by all players)
+  legendary:
+    soul-crystal: true
+    beacon-compass: true
+    recall-scroll: true

@@ -1,0 +1,31 @@
+# Messages configuration for xLifeSMP
+# Supports color formats:
+#   - Named colors: <red>, <green>, <yellow>, <blue>, <gold>, <gray>, etc.
+#   - Hex colors: <#FF0000> for red, <#00FF00> for green, <#0000FF> for blue
+#   - RGB colors: <rgb(255,0,0)> for red, <rgb(0,255,0)> for green, <rgb(0,0,255)> for blue
+# Example: "<#FF0000>Error:</> <rgb(255,255,255)>Something went wrong"
+
+# Player elimination message
+eliminated: "<#FF0000>%player% has been eliminated!</>"
+eliminated-broadcast: "<#FF0000>%player% has been eliminated!</>"
+eliminated-player: "<#FF0000>You have been eliminated! Wait for someone to revive you.</>"
+
+# Death messages
+lost-life: "<#FF0000>You lost a life! <gray>Lives remaining: <#FFFF00>%lives%</>"
+
+# Life gain messages
+gained-life: "<#00FF00>You gained a life! <gray>Lives: <#FFFF00>%lives%</>"
+killer-gained-life: "<#FFD700>%player% <#00FF00>has gained a life!</>"
+
+# Life status messages
+status:
+  green: "<#00FF00>You are now GREEN.</>"
+  yellow: "<#FFFF00>You are now YELLOW.</>"
+  red: "<#FF0000>You are now RED.</>"
+
+# Join message
+join: "<gray>You currently have <#FFFF00>%lives% <gray>lives.</>"
+
+# Login denial message
+login-denied: "<#FF0000>You have been eliminated! Wait until someone revives you.</>"
+

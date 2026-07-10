@@ -1,4 +1,4 @@
-# Third Life SMP Plugin
+# Six Life SMP Plugin
 
 A Bukkit/Spigot plugin that implements a Third Life-style game mode for Minecraft survival multiplayer servers. Players have limited lives and must manage their resources strategically.
 
